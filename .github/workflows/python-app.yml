@@ -44,4 +44,12 @@ jobs:
         git add -A
         git commit -m "Daily: update README.md" || exit 0
         git push
-
+  jobs_2:
+    name: 'Update Readme with Metrics'
+    needs: jobs_1
+    runs-on: ubuntu-latest
+    steps:
+      - uses: miermontoto/waka-readme-stats@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
