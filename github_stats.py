@@ -104,78 +104,78 @@ class Queries(object):
         :return: GraphQL query with overview of user repositories
         """
         return f"""{{
-  viewer {{
-    login,
-    name,
-    repositories(
-        first: 100,
-        orderBy: {{
-            field: UPDATED_AT,
-            direction: DESC
-        }},
-        isFork: false,
-        after: {"null" if owned_cursor is None else '"'+ owned_cursor +'"'}
-    ) {{
-      pageInfo {{
-        hasNextPage
-        endCursor
-      }}
-      nodes {{
-        nameWithOwner
-        stargazers {{
-          totalCount
-        }}
-        forkCount
-        languages(first: 10, orderBy: {{field: SIZE, direction: DESC}}) {{
-          edges {{
-            size
-            node {{
+            viewer {{
+              login
               name
-              color
+              repositories(
+                first: 100
+                orderBy: {{field: UPDATED_AT, direction: DESC}}
+                isFork: false
+                after: {"null" if owned_cursor is None else '"' + owned_cursor + '"'}
+              ) {{
+                pageInfo {{
+                  hasNextPage
+                  endCursor
+                }}
+                nodes {{
+                  name
+                  nameWithOwner
+                  description
+                  isPrivate
+                  url
+                  stargazers {{
+                    totalCount
+                  }}
+                  forkCount
+                  languages(first: 10, orderBy: {{field: SIZE, direction: DESC}}) {{
+                    edges {{
+                      size
+                      node {{
+                        name
+                        color
+                      }}
+                    }}
+                  }}
+                  releases(last: 10, orderBy: {{field: CREATED_AT, direction: DESC}}) {{
+                    totalCount
+                    nodes {{
+                      name
+                      publishedAt
+                      url
+                    }}
+                  }}
+                }}
+              }}
+              repositoriesContributedTo(
+                first: 100
+                includeUserRepositories: false
+                orderBy: {{field: UPDATED_AT, direction: DESC}}
+                contributionTypes: [COMMIT, PULL_REQUEST, REPOSITORY, PULL_REQUEST_REVIEW]
+                after: null
+              ) {{
+                pageInfo {{
+                  hasNextPage
+                  endCursor
+                }}
+                nodes {{
+                  nameWithOwner
+                  stargazers {{
+                    totalCount
+                  }}
+                  forkCount
+                  languages(first: 10, orderBy: {{field: SIZE, direction: DESC}}) {{
+                    edges {{
+                      size
+                      node {{
+                        name
+                        color
+                      }}
+                    }}
+                  }}
+                }}
+              }}
             }}
-          }}
-        }}
-      }}
-    }}
-    repositoriesContributedTo(
-        first: 100,
-        includeUserRepositories: false,
-        orderBy: {{
-            field: UPDATED_AT,
-            direction: DESC
-        }},
-        contributionTypes: [
-            COMMIT,
-            PULL_REQUEST,
-            REPOSITORY,
-            PULL_REQUEST_REVIEW
-        ]
-        after: {"null" if contrib_cursor is None else '"'+ contrib_cursor +'"'}
-    ) {{
-      pageInfo {{
-        hasNextPage
-        endCursor
-      }}
-      nodes {{
-        nameWithOwner
-        stargazers {{
-          totalCount
-        }}
-        forkCount
-        languages(first: 10, orderBy: {{field: SIZE, direction: DESC}}) {{
-          edges {{
-            size
-            node {{
-              name
-              color
-            }}
-          }}
-        }}
-      }}
-    }}
-  }}
-}}
-"""
+        }}"""
 
     @staticmethod
     def contrib_years() -> str:
@@ -193,7 +193,7 @@ query {
 """
 
     @staticmethod
-    def contribs_by_year(year: str) -> str:
+    def contributes_by_year(year: str) -> str:
         """
         :param year: year to query for
         :return: portion of a GraphQL query with desired info for a given year
@@ -210,12 +210,12 @@ query {
 """
 
     @classmethod
-    def all_contribs(cls, years: List[str]) -> str:
+    def all_contributes(cls, years: List[str]) -> str:
         """
         :param years: list of years to get contributions for
         :return: query to retrieve contribution information for all user years
         """
-        by_years = "\n".join(map(cls.contribs_by_year, years))
+        by_years = "\n".join(map(cls.contributes_by_year, years))
         return f"""
 query {{
   viewer {{
@@ -229,6 +229,7 @@ class Stats(object):
     """
     Retrieve and store statistics about GitHub usage.
     """
+
     def __init__(self, username: str, access_token: str,
                  session: aiohttp.ClientSession,
                  exclude_repos: Optional[Set] = None,
@@ -246,8 +247,9 @@ class Stats(object):
         self._total_contributions = None
         self._languages = None
         self._repos = None
+        self._releases = None
         self._lines_changed = None
-        self._views = None        
+        self._views = None
 
     async def to_str(self) -> str:
         """
@@ -256,6 +258,11 @@ class Stats(object):
         languages = await self.languages_proportional
         formatted_languages = "\n  - ".join(
             [f"{k}: {v:0.4f}%" for k, v in languages.items()]
+        )
+        releases_list = await self.releases
+        releases_str = "\n  - ".join(
+            ["{repo_name}({repo_des}) {release_name} - {release_time} {release_url}".format(**rele)
+             for rele in releases_list]
         )
         lines_changed = await self.lines_changed
         return f"""Name: {await self.name}
@@ -268,7 +275,10 @@ Lines of code deleted: {lines_changed[1]:,}
 Lines of code changed: {lines_changed[0] + lines_changed[1]:,}
 Project page views: {await self.views:,}
 Languages:
-  - {formatted_languages}"""
+  - {formatted_languages}
+Releases: 
+  - {releases_str}
+"""
 
     async def get_stats(self) -> None:
         """
@@ -278,8 +288,9 @@ Languages:
         self._forks = 0
         self._languages = dict()
         self._repos = set()
+        self._releases = list()
         self._ignored_repos = set()
-        
+
         next_owned = None
         next_contrib = None
         while True:
@@ -307,7 +318,7 @@ Languages:
                            .get("data", {})
                            .get("viewer", {})
                            .get("repositories", {}))
-            
+
             repos = owned_repos.get("nodes", [])
             if self._consider_forked_repos:
                 repos += contrib_repos.get("nodes", [])
@@ -340,6 +351,18 @@ Languages:
                             "color": lang.get("node", {}).get("color")
                         }
 
+                is_private = repo.get("isPrivate", False)
+                release_count = repo.get("releases", {}).get("totalCount", 0)
+                release_nodes = repo.get("releases", {}).get("nodes", [])
+                if not is_private and release_count and release_nodes:
+                    self._releases.append({
+                        "repo_name": repo.get("name", ""),
+                        "repo_des": repo.get("description", "")[:37] + "...",
+                        "release_name": release_nodes[0].get("name", ""),
+                        "release_time": release_nodes[0].get("publishedAt", "").split("T")[0],
+                        "release_url": release_nodes[0].get("url")
+                    })
+
             if owned_repos.get("pageInfo", {}).get("hasNextPage", False) or \
                     contrib_repos.get("pageInfo", {}).get("hasNextPage", False):
                 next_owned = (owned_repos
@@ -365,7 +388,7 @@ Languages:
         if self._name is not None:
             return self._name
         await self.get_stats()
-        assert(self._name is not None)
+        assert (self._name is not None)
         return self._name
 
     @property
@@ -376,7 +399,7 @@ Languages:
         if self._stargazers is not None:
             return self._stargazers
         await self.get_stats()
-        assert(self._stargazers is not None)
+        assert (self._stargazers is not None)
         return self._stargazers
 
     @property
@@ -387,7 +410,7 @@ Languages:
         if self._forks is not None:
             return self._forks
         await self.get_stats()
-        assert(self._forks is not None)
+        assert (self._forks is not None)
         return self._forks
 
     @property
@@ -398,7 +421,7 @@ Languages:
         if self._languages is not None:
             return self._languages
         await self.get_stats()
-        assert(self._languages is not None)
+        assert (self._languages is not None)
         return self._languages
 
     @property
@@ -408,7 +431,7 @@ Languages:
         """
         if self._languages is None:
             await self.get_stats()
-            assert(self._languages is not None)
+            assert (self._languages is not None)
 
         return {k: v.get("prop", 0) for (k, v) in self._languages.items()}
 
@@ -420,9 +443,9 @@ Languages:
         if self._repos is not None:
             return self._repos
         await self.get_stats()
-        assert(self._repos is not None)
+        assert (self._repos is not None)
         return self._repos
-    
+
     @property
     async def all_repos(self) -> List[str]:
         """
@@ -432,8 +455,8 @@ Languages:
         if self._repos is not None and self._ignored_repos is not None:
             return self._repos | self._ignored_repos
         await self.get_stats()
-        assert(self._repos is not None)
-        assert(self._ignored_repos is not None)
+        assert (self._repos is not None)
+        assert (self._ignored_repos is not None)
         return self._repos | self._ignored_repos
 
     @property
@@ -450,7 +473,7 @@ Languages:
             .get("viewer", {}) \
             .get("contributionsCollection", {}) \
             .get("contributionYears", [])
-        by_year = (await self.queries.query(Queries.all_contribs(years))) \
+        by_year = (await self.queries.query(Queries.all_contributes(years))) \
             .get("data", {}) \
             .get("viewer", {}).values()
         for year in by_year:
@@ -503,6 +526,17 @@ Languages:
 
         self._views = total
         return total
+
+    @property
+    async def releases(self) -> List[Dict]:
+        """
+        :return: summary of release by the user
+        """
+        if self._releases is not None:
+            return self._releases
+        await self.get_stats()
+        assert (self._releases is not None)
+        return self._releases
 
 
 ###############################################################################

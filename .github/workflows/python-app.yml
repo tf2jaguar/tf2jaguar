@@ -25,7 +25,7 @@ jobs:
       run: |
         python3 -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: 'Generate images'
+    - name: 'Update statistics'
       env:
         GITHUB_ACTOR: ${{ secrets.GH_ACTOR }}
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -34,7 +34,7 @@ jobs:
         COUNT_STATS_FROM_FORKS: ${{ secrets.COUNT_STATS_FROM_FORKS }}
       run: |
         echo 'run at:' `date '+%Y-%m-%d %H:%M:%S'`
-        python3 generate_images.py
+        python3 update_readme.py
     - name: 'Commit and push if changed'
       run: |
         git diff
@@ -42,7 +42,7 @@ jobs:
         git config --global user.name "zhangguodong"
         git pull
         git add -A
-        git commit -m "Update github statistics img" || exit 0
+        git commit -m "🎨Update statistics" || exit 0
         git push
   jobs_2:
     name: 'Update Readme with waka Metrics'
@@ -52,3 +52,4 @@ jobs:
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          COMMIT_MESSAGE: '✨Updated waka graph'

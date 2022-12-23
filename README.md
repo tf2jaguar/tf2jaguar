@@ -14,12 +14,26 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 
 ## 📝 Latest Blog Posts
 
+<!-- recent_blogs starts -->
+<!-- recent_blogs ends -->
 
 ## 🎯 Project Release
 
+<!-- github_recent_releases starts -->
+
+<!-- github_recent_releases ends -->
 
 ## 📈 Weekly Development Breakdown
 
 <!--START_SECTION:waka-->
+
+```text
+Python           1 hr 37 mins    ███████████░░░░░░░░░░░░░░   44.07 %
+YAML             55 mins         ██████▒░░░░░░░░░░░░░░░░░░   25.12 %
+Markdown         54 mins         ██████▒░░░░░░░░░░░░░░░░░░   24.87 %
+JSON             3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.53 %
+Other            3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.37 %
+```
+
 <!--END_SECTION:waka-->
 
