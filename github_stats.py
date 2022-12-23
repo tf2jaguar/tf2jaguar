@@ -357,7 +357,7 @@ Releases:
                 if not is_private and release_count and release_nodes:
                     self._releases.append({
                         "repo_name": repo.get("name", ""),
-                        "repo_des": repo.get("description", "")[:37] + "...",
+                        "repo_des": repo.get("description", "")[:30] + "...",
                         "release_name": release_nodes[0].get("name", ""),
                         "release_time": release_nodes[0].get("publishedAt", "").split("T")[0],
                         "release_url": release_nodes[0].get("url")
