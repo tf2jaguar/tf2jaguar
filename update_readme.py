@@ -6,6 +6,8 @@ import pathlib
 import re
 
 import aiohttp
+import feedparser
+
 from github_stats import Stats
 from update_stats_img import generate_languages, generate_overview
 
@@ -38,8 +40,26 @@ async def update_recent_releases(s: Stats) -> None:
         "* <a href='{release_url}' target='_blank'>{repo_name} ({repo_des}) {release_name}</a> - {release_time}".format(**release)
         for release in sorted_releases[:5]
     ])
-    print('write md:\n', md)
+    print('write recent_releases md:\n', md)
     rewritten = replace_chunk(readme_file.open().read(), "github_recent_releases", md)
+    readme_file.open("w").write(rewritten)
+
+
+def update_recent_blogs() -> None:
+    entries = feedparser.parse("https://tf2jaguar.github.io/atom.xml")["entries"]
+    blogs = [
+        {
+            "title": entry["title"],
+            "url": entry["link"].split("#")[0],
+            "published": entry["published"].split("T")[0],
+        }
+        for entry in entries
+    ]
+    md = "\n".join([
+        "* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**entry) for entry in blogs[:10]
+    ])
+    print('write recent_blogs md:\n', md)
+    rewritten = replace_chunk(readme_file.open().read(), "recent_blogs", md)
     readme_file.open("w").write(rewritten)
 
 
@@ -65,6 +85,7 @@ async def main() -> None:
                   consider_forked_repos=consider_forked_repos)
         await asyncio.gather(generate_languages(s), generate_overview(s))
         await update_recent_releases(s)
+        update_recent_blogs()
 
 
 if __name__ == "__main__":
