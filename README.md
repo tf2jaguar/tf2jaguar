@@ -30,8 +30,9 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 ## 🎯 Project Release
 
 <!-- github_recent_releases starts -->
+* <a href='https://github.com/tf2jaguar/pytorch_train/releases/tag/1.0.0.RELEASE' target='_blank'>pytorch_train (毕业设计 使用pytorch进行深度学习网络模型训练，实现车...) 稳定版1.0.0.RELEASE</a> - 2022-12-23
 * <a href='https://github.com/tf2jaguar/microcosm/releases/tag/1.1.3.RELEASE' target='_blank'>microcosm (Springboot项目的工具包。尝试减少函数和功能之间的相...) 1.1.3.RELEASE</a> - 2022-06-16
-* <a href='https://github.com/tf2jaguar/carIdentify/releases/tag/1.0.0.RELEASE' target='_blank'>carIdentify (毕业设计 基于深度学习的车型识别APP，此处为APP模块...) v_1.0.0.RELEASE</a> - 2022-05-12
+* <a href='https://github.com/tf2jaguar/carIdentify/releases/tag/1.0.0.RELEASE' target='_blank'>carIdentify (毕业设计 基于深度学习的车型识别APP，此处为APP模块...) 稳定版1.0.0.RELEASE</a> - 2022-05-12
 <!-- github_recent_releases ends -->
 
 ## 📈 Weekly Development Breakdown
