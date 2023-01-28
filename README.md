@@ -40,8 +40,7 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 <!--START_SECTION:waka-->
 
 ```text
-Markdown         0 secs          ████████████████████████▒   96.81 %
-GitIgnore file   0 secs          ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.19 %
+Other            8 mins          ███████████████████░░░░░░   76.27 %
 ```
 
 <!--END_SECTION:waka-->
