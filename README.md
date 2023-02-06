@@ -40,11 +40,12 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 <!--START_SECTION:waka-->
 
 ```text
-Python           3 hrs 37 mins   ████████████▒░░░░░░░░░░░░   48.92 %
-PHP              1 hr 28 mins    █████░░░░░░░░░░░░░░░░░░░░   19.79 %
-Markdown         1 hr 19 mins    ████▒░░░░░░░░░░░░░░░░░░░░   17.84 %
-YAML             18 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.13 %
-Other            16 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.69 %
+Python           3 hrs 37 mins   ██████████████▒░░░░░░░░░░   57.31 %
+Markdown         1 hr 24 mins    █████▓░░░░░░░░░░░░░░░░░░░   22.13 %
+YAML             44 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.60 %
+PHP              10 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.72 %
+Makefile         9 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.53 %
+Other            6 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.77 %
 ```
 
 <!--END_SECTION:waka-->
