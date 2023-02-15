@@ -40,8 +40,12 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 <!--START_SECTION:waka-->
 
 ```text
-PHP              18 hrs 29 mins  ████████████████████████░   96.53 %
-Other            13 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.15 %
+PHP              15 hrs 32 mins  ████████████████████████▒   97.53 %
+Markdown         11 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.23 %
+GitIgnore file   4 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.51 %
+JSON             3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.32 %
+textmate         2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.26 %
+Text             0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.04 %
 ```
 
 <!--END_SECTION:waka-->
