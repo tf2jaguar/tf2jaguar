@@ -40,8 +40,8 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 <!--START_SECTION:waka-->
 
 ```text
-PHP              9 hrs 47 mins   ██████████████████████░░░   87.86 %
-Other            58 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   08.74 %
+PHP              14 hrs 13 mins  ███████████████████████▒░   93.31 %
+Other            41 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.57 %
 ```
 
 <!--END_SECTION:waka-->
