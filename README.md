@@ -40,11 +40,11 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 <!--START_SECTION:waka-->
 
 ```txt
-PHP            6 hrs 46 mins   ███████████████▓░░░░░░░░░   62.62 %
-Go             2 hrs 12 mins   █████░░░░░░░░░░░░░░░░░░░░   20.39 %
-C++            54 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.37 %
-JSON           28 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.33 %
-go.mod         19 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.00 %
+PHP              7 hrs 47 mins   ████████████████░░░░░░░░░   63.86 %
+Other            2 hrs 11 mins   ████▓░░░░░░░░░░░░░░░░░░░░   18.02 %
+Go               1 hr 16 mins    ██▓░░░░░░░░░░░░░░░░░░░░░░   10.39 %
+C++              54 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.43 %
+INI              0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.10 %
 ```
 
 <!--END_SECTION:waka-->
