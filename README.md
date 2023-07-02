@@ -40,11 +40,11 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 <!--START_SECTION:waka-->
 
 ```txt
-PHP              14 hrs 53 mins  █████████████████░░░░░░░░   67.90 %
-Other            2 hrs 35 mins   ███░░░░░░░░░░░░░░░░░░░░░░   11.84 %
-SQL              1 hr 45 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   08.03 %
-Bash             1 hr 10 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   05.35 %
-Python           33 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.58 %
+PHP              11 hrs 43 mins  █████████████████▒░░░░░░░   69.95 %
+Other            2 hrs 4 mins    ███░░░░░░░░░░░░░░░░░░░░░░   12.35 %
+SQL              1 hr 21 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   08.09 %
+Bash             31 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.14 %
+Python           29 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.96 %
 ```
 
 <!--END_SECTION:waka-->
