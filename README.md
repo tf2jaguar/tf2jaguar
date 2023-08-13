@@ -15,6 +15,7 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 ## 📝 Latest Blog Posts
 
 <!-- recent_blogs starts -->
+* <a href='https://tf2jaguar.github.io/life-beijing-shanghai-programer.html' target='_blank'>北京西二旗和上海张江程序员的终极悲惨宿命</a> - 2023-08-12
 * <a href='https://tf2jaguar.github.io/sh601888-20230707.html' target='_blank'>中国中免-20230707分析</a> - 2023-07-08
 * <a href='https://tf2jaguar.github.io/project-microcosm.html' target='_blank'>microcosm-SpringBoot工具包</a> - 2022-12-25
 * <a href='https://tf2jaguar.github.io/srping-extension-point.html' target='_blank'>spring中常用的11个扩展点</a> - 2022-12-10
@@ -24,7 +25,6 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 * <a href='https://tf2jaguar.github.io/jvm-gc-ygc.html' target='_blank'>jvm-重新认识YGC</a> - 2022-11-29
 * <a href='https://tf2jaguar.github.io/spring-circular-dependency.html' target='_blank'>spring的循环依赖</a> - 2022-11-28
 * <a href='https://tf2jaguar.github.io/mysql-mvcc.html' target='_blank'>mysql的mvcc机制</a> - 2022-11-22
-* <a href='https://tf2jaguar.github.io/java-shift-operator.html' target='_blank'>java移位操作符</a> - 2022-11-22
 <!-- recent_blogs ends -->
 
 ## 🎯 Project Release
