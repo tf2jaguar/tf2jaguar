@@ -40,11 +40,7 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 <!--START_SECTION:waka-->
 
 ```txt
-XML              15 mins         ████████████░░░░░░░░░░░░░   48.14 %
-Go               10 mins         ████████░░░░░░░░░░░░░░░░░   32.34 %
-PHP              2 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   08.37 %
-Text             1 min           █▒░░░░░░░░░░░░░░░░░░░░░░░   05.75 %
-Java             0 secs          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.79 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
