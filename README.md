@@ -40,7 +40,11 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+PHP          1 hr 49 mins    ███████████████▓░░░░░░░░░   62.53 %
+JSON         34 mins         █████░░░░░░░░░░░░░░░░░░░░   19.57 %
+Java         19 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   11.00 %
+Other        8 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.56 %
+Assembly     2 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.56 %
 ```
 
 <!--END_SECTION:waka-->
