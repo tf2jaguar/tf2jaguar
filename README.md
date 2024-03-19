@@ -40,11 +40,11 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 <!--START_SECTION:waka-->
 
 ```txt
-JavaScript     2 hrs 30 mins   ███████████░░░░░░░░░░░░░░   44.45 %
-Markdown       1 hr 43 mins    ███████▓░░░░░░░░░░░░░░░░░   30.67 %
-SCSS           43 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   12.75 %
-Go             25 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.61 %
-JSON           12 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.72 %
+JavaScript     2 hrs 30 mins   ███████████░░░░░░░░░░░░░░   43.98 %
+Markdown       1 hr 42 mins    ███████▒░░░░░░░░░░░░░░░░░   29.93 %
+SCSS           43 mins         ███░░░░░░░░░░░░░░░░░░░░░░   12.62 %
+Go             25 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.53 %
+JSON           12 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.68 %
 ```
 
 <!--END_SECTION:waka-->
