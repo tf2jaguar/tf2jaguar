@@ -40,11 +40,11 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 <!--START_SECTION:waka-->
 
 ```txt
-Go             3 hrs 29 mins   ████████████▓░░░░░░░░░░░░   51.27 %
-Other          2 hrs 26 mins   █████████░░░░░░░░░░░░░░░░   35.88 %
-Bash           18 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.48 %
-IDL            14 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.56 %
-SQL            12 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.08 %
+Go             4 hrs           █████████▓░░░░░░░░░░░░░░░   39.08 %
+Other          3 hrs 15 mins   ████████░░░░░░░░░░░░░░░░░   31.85 %
+Python         1 hr 28 mins    ███▓░░░░░░░░░░░░░░░░░░░░░   14.43 %
+IDL            42 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.95 %
+Bash           18 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.98 %
 ```
 
 <!--END_SECTION:waka-->
