@@ -40,11 +40,11 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 <!--START_SECTION:waka-->
 
 ```txt
-Go               10 hrs          ████████████████████▒░░░░   81.34 %
-TypeScript       55 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.46 %
-Other            43 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.94 %
-Bash             18 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.55 %
-GitIgnore file   8 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.17 %
+Go               12 hrs 22 mins  ████████████████░░░░░░░░░   63.74 %
+TypeScript       4 hrs 53 mins   ██████▒░░░░░░░░░░░░░░░░░░   25.23 %
+Other            1 hr 1 min      █▒░░░░░░░░░░░░░░░░░░░░░░░   05.32 %
+Markdown         26 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.30 %
+Bash             18 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.62 %
 ```
 
 <!--END_SECTION:waka-->
