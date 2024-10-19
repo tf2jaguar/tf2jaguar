@@ -40,11 +40,7 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 <!--START_SECTION:waka-->
 
 ```txt
-Go               20 mins         ██████████▓░░░░░░░░░░░░░░   43.15 %
-Other            8 mins          ████▓░░░░░░░░░░░░░░░░░░░░   18.53 %
-Markdown         8 mins          ████▒░░░░░░░░░░░░░░░░░░░░   17.80 %
-go.mod           6 mins          ███▒░░░░░░░░░░░░░░░░░░░░░   13.32 %
-textmate         1 min           █░░░░░░░░░░░░░░░░░░░░░░░░   03.93 %
+Other   8 mins          █████████████████████████   100.00 %
 ```
 
 <!--END_SECTION:waka-->
