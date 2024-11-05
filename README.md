@@ -40,11 +40,11 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 <!--START_SECTION:waka-->
 
 ```txt
-Other        1 hr 57 mins    ███████████████████▓░░░░░   78.58 %
-Bash         15 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.43 %
-Go           11 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.71 %
-JSON         3 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.25 %
-INI          1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.79 %
+Other        1 hr 45 mins    ████████████████████░░░░░   79.67 %
+Bash         15 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.84 %
+Go           9 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   07.33 %
+INI          1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.89 %
+SSH Config   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.27 %
 ```
 
 <!--END_SECTION:waka-->
