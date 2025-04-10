@@ -40,11 +40,11 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 <!--START_SECTION:waka-->
 
 ```txt
-HTML                2 hrs 5 mins    █████████▓░░░░░░░░░░░░░░░   38.50 %
-Groovy              1 hr 2 mins     ████▓░░░░░░░░░░░░░░░░░░░░   19.19 %
-Kotlin              37 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.41 %
-Other               31 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.64 %
-Gradle Kotlin DSL   26 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.00 %
+HTML              2 hrs 5 mins    ████████████████▒░░░░░░░░   65.77 %
+Other             32 mins         ████▒░░░░░░░░░░░░░░░░░░░░   16.74 %
+JavaScript        22 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.68 %
+Groovy            5 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.88 %
+Kotlin            2 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.44 %
 ```
 
 <!--END_SECTION:waka-->
