@@ -40,11 +40,11 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 <!--START_SECTION:waka-->
 
 ```txt
-Nunjucks   21 mins         ██████████▒░░░░░░░░░░░░░░   41.22 %
-Other      15 mins         ███████▒░░░░░░░░░░░░░░░░░   29.39 %
-YAML       9 mins          ████▓░░░░░░░░░░░░░░░░░░░░   18.30 %
-Text       4 mins          ██▒░░░░░░░░░░░░░░░░░░░░░░   09.17 %
-Bash       1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.92 %
+Other      52 mins         ██████████████▓░░░░░░░░░░   58.04 %
+Nunjucks   21 mins         ██████░░░░░░░░░░░░░░░░░░░   24.50 %
+YAML       9 mins          ██▓░░░░░░░░░░░░░░░░░░░░░░   10.87 %
+Text       4 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.45 %
+Bash       1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.14 %
 ```
 
 <!--END_SECTION:waka-->
