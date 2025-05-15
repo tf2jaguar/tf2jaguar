@@ -15,6 +15,8 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 ## 📝 Latest Blog Posts
 
 <!-- recent_blogs starts -->
+* <a href='https://tf2jaguar.github.io/mbd-0515.html' target='_blank'>0515-那对野鸳鸯都被撸了</a> - 2025-05-15
+* <a href='https://tf2jaguar.github.io/dbhzt-0515.html' target='_blank'>0515-观察转折力度</a> - 2025-05-15
 * <a href='https://tf2jaguar.github.io/mbd-0514.html' target='_blank'>0514-风格挤压</a> - 2025-05-14
 * <a href='https://tf2jaguar.github.io/dbhzt-0514.html' target='_blank'>0514-警惕转折高点</a> - 2025-05-14
 * <a href='https://tf2jaguar.github.io/mbd-0513.html' target='_blank'>0513-祖训不可违</a> - 2025-05-14
@@ -23,8 +25,6 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 * <a href='https://tf2jaguar.github.io/life-beijing-shanghai-programer.html' target='_blank'>北京西二旗和上海张江程序员的终极悲惨宿命</a> - 2023-08-12
 * <a href='https://tf2jaguar.github.io/sh601888-20230707.html' target='_blank'>中国中免-20230707分析</a> - 2023-07-08
 * <a href='https://tf2jaguar.github.io/project-microcosm.html' target='_blank'>microcosm-SpringBoot工具包</a> - 2022-12-25
-* <a href='https://tf2jaguar.github.io/srping-extension-point.html' target='_blank'>spring中常用的11个扩展点</a> - 2022-12-10
-* <a href='https://tf2jaguar.github.io/jvm-heap-size.html' target='_blank'>jvm-堆内存不要超过32G</a> - 2022-12-04
 <!-- recent_blogs ends -->
 
 ## 🎯 Project Release
