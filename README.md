@@ -15,7 +15,9 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 ## 📝 Latest Blog Posts
 
 <!-- recent_blogs starts -->
+* <a href='https://tf2jaguar.github.io/mbd-0517.html' target='_blank'>0517-一见面就谈崩了</a> - 2025-05-17
 * <a href='https://tf2jaguar.github.io/mbd-016.html' target='_blank'>0516-副业搞钱</a> - 2025-05-16
+* <a href='https://tf2jaguar.github.io/mbd-0516.html' target='_blank'>0516-副业搞钱</a> - 2025-05-16
 * <a href='https://tf2jaguar.github.io/dbhzt-0516.html' target='_blank'>0516-耐心观察</a> - 2025-05-16
 * <a href='https://tf2jaguar.github.io/mbd-0515.html' target='_blank'>0515-那对野鸳鸯都被撸了</a> - 2025-05-15
 * <a href='https://tf2jaguar.github.io/dbhzt-0515.html' target='_blank'>0515-观察转折力度</a> - 2025-05-15
@@ -23,8 +25,6 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 * <a href='https://tf2jaguar.github.io/dbhzt-0514.html' target='_blank'>0514-警惕转折高点</a> - 2025-05-14
 * <a href='https://tf2jaguar.github.io/mbd-0513.html' target='_blank'>0513-祖训不可违</a> - 2025-05-14
 * <a href='https://tf2jaguar.github.io/dbhzt-0513.html' target='_blank'>0513-反应平静</a> - 2025-05-14
-* <a href='https://tf2jaguar.github.io/shanxi-rural-elderly-empty.html' target='_blank'>农村最后一批留守老人老去之后农村是不是就空了</a> - 2024-03-24
-* <a href='https://tf2jaguar.github.io/life-beijing-shanghai-programer.html' target='_blank'>北京西二旗和上海张江程序员的终极悲惨宿命</a> - 2023-08-12
 <!-- recent_blogs ends -->
 
 ## 🎯 Project Release
