@@ -15,6 +15,8 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 ## 📝 Latest Blog Posts
 
 <!-- recent_blogs starts -->
+* <a href='https://tf2jaguar.github.io/mbd-0520.html' target='_blank'>0520-终于降了</a> - 2025-05-20
+* <a href='https://tf2jaguar.github.io/dbhzt-0520.html' target='_blank'>0520-警惕双头图形结构</a> - 2025-05-20
 * <a href='https://tf2jaguar.github.io/mbd-0519.html' target='_blank'>0519-又转向了</a> - 2025-05-19
 * <a href='https://tf2jaguar.github.io/dbhzt-0519.html' target='_blank'>0519-还得多多观察</a> - 2025-05-19
 * <a href='https://tf2jaguar.github.io/mbd-0518.html' target='_blank'>0518-好消息坏消息</a> - 2025-05-18
@@ -23,8 +25,6 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 * <a href='https://tf2jaguar.github.io/mbd-0516.html' target='_blank'>0516-副业搞钱</a> - 2025-05-16
 * <a href='https://tf2jaguar.github.io/dbhzt-0516.html' target='_blank'>0516-耐心观察</a> - 2025-05-16
 * <a href='https://tf2jaguar.github.io/mbd-0515.html' target='_blank'>0515-那对野鸳鸯都被撸了</a> - 2025-05-15
-* <a href='https://tf2jaguar.github.io/dbhzt-0515.html' target='_blank'>0515-观察转折力度</a> - 2025-05-15
-* <a href='https://tf2jaguar.github.io/mbd-0514.html' target='_blank'>0514-风格挤压</a> - 2025-05-14
 <!-- recent_blogs ends -->
 
 ## 🎯 Project Release
