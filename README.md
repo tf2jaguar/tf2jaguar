@@ -15,16 +15,16 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 ## 📝 Latest Blog Posts
 
 <!-- recent_blogs starts -->
-* <a href='https://tf2jaguar.github.io/mbd-0521.html' target='_blank'>0521-又要搞事</a> - 2025-05-21
-* <a href='https://tf2jaguar.github.io/dbhzt-0521.html' target='_blank'>0521-下一个时间转折点</a> - 2025-05-21
-* <a href='https://tf2jaguar.github.io/mbd-0520.html' target='_blank'>0520-终于降了</a> - 2025-05-20
-* <a href='https://tf2jaguar.github.io/dbhzt-0520.html' target='_blank'>0520-警惕双头图形结构</a> - 2025-05-20
-* <a href='https://tf2jaguar.github.io/mbd-0519.html' target='_blank'>0519-又转向了</a> - 2025-05-19
-* <a href='https://tf2jaguar.github.io/dbhzt-0519.html' target='_blank'>0519-还得多多观察</a> - 2025-05-19
-* <a href='https://tf2jaguar.github.io/mbd-0518.html' target='_blank'>0518-好消息坏消息</a> - 2025-05-18
-* <a href='https://tf2jaguar.github.io/dbhzt-0518.html' target='_blank'>0518-可能回补缺口</a> - 2025-05-18
-* <a href='https://tf2jaguar.github.io/mbd-0517.html' target='_blank'>0517-一见面就谈崩了</a> - 2025-05-17
-* <a href='https://tf2jaguar.github.io/mbd-0516.html' target='_blank'>0516-副业搞钱</a> - 2025-05-16
+* <a href='https://blog.tf2jaguar.dpdns.org/dbhzt-0522.html' target='_blank'>0522-先跌后涨</a> - 2025-05-22
+* <a href='https://blog.tf2jaguar.dpdns.org/mbd-0522.html' target='_blank'>0522-明明白白的账</a> - 2025-05-22
+* <a href='https://blog.tf2jaguar.dpdns.org/mbd-0521.html' target='_blank'>0521-又要搞事</a> - 2025-05-21
+* <a href='https://blog.tf2jaguar.dpdns.org/dbhzt-0521.html' target='_blank'>0521-下一个时间转折点</a> - 2025-05-21
+* <a href='https://blog.tf2jaguar.dpdns.org/mbd-0520.html' target='_blank'>0520-终于降了</a> - 2025-05-20
+* <a href='https://blog.tf2jaguar.dpdns.org/dbhzt-0520.html' target='_blank'>0520-警惕双头图形结构</a> - 2025-05-20
+* <a href='https://blog.tf2jaguar.dpdns.org/mbd-0519.html' target='_blank'>0519-又转向了</a> - 2025-05-19
+* <a href='https://blog.tf2jaguar.dpdns.org/dbhzt-0519.html' target='_blank'>0519-还得多多观察</a> - 2025-05-19
+* <a href='https://blog.tf2jaguar.dpdns.org/mbd-0518.html' target='_blank'>0518-好消息坏消息</a> - 2025-05-18
+* <a href='https://blog.tf2jaguar.dpdns.org/dbhzt-0518.html' target='_blank'>0518-可能回补缺口</a> - 2025-05-18
 <!-- recent_blogs ends -->
 
 ## 🎯 Project Release
