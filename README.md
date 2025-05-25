@@ -15,6 +15,8 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 ## 📝 Latest Blog Posts
 
 <!-- recent_blogs starts -->
+* <a href='https://tf2jaguar.dpdns.org/mbd-0525.html' target='_blank'>0525-南下</a> - 2025-05-25
+* <a href='https://tf2jaguar.dpdns.org/dbhzt-0525.html' target='_blank'>0525-关注20周线</a> - 2025-05-25
 * <a href='https://tf2jaguar.dpdns.org/mbd-0523.html' target='_blank'>0523-一个人同时上3条热搜</a> - 2025-05-23
 * <a href='https://tf2jaguar.dpdns.org/dbhzt-0523.html' target='_blank'>0523-转折生效</a> - 2025-05-23
 * <a href='https://tf2jaguar.dpdns.org/dbhzt-0522.html' target='_blank'>0522-先跌后涨</a> - 2025-05-22
@@ -23,8 +25,6 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 * <a href='https://tf2jaguar.dpdns.org/dbhzt-0521.html' target='_blank'>0521-下一个时间转折点</a> - 2025-05-21
 * <a href='https://tf2jaguar.dpdns.org/mbd-0520.html' target='_blank'>0520-终于降了</a> - 2025-05-20
 * <a href='https://tf2jaguar.dpdns.org/dbhzt-0520.html' target='_blank'>0520-警惕双头图形结构</a> - 2025-05-20
-* <a href='https://tf2jaguar.dpdns.org/mbd-0519.html' target='_blank'>0519-又转向了</a> - 2025-05-19
-* <a href='https://tf2jaguar.dpdns.org/dbhzt-0519.html' target='_blank'>0519-还得多多观察</a> - 2025-05-19
 <!-- recent_blogs ends -->
 
 ## 🎯 Project Release
