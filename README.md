@@ -15,7 +15,8 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 ## 📝 Latest Blog Posts
 
 <!-- recent_blogs starts -->
-* <a href='https://tf2jaguar.dpdns.org/webank-plus.html' target='_blank'>2025-06-14 微众plus+收益率回测</a> - 2025-06-13
+* <a href='https://tf2jaguar.dpdns.org/cmb.html' target='_blank'>2025-06-15 招行热门理财收益率回测</a> - 2025-06-14
+* <a href='https://tf2jaguar.dpdns.org/webank-plus.html' target='_blank'>2025-06-15 微众plus+收益率回测</a> - 2025-06-14
 * <a href='https://tf2jaguar.dpdns.org/sh601888-20250520.html' target='_blank'>中国中免-20250520分析</a> - 2025-05-30
 * <a href='https://tf2jaguar.dpdns.org/shanxi-rural-elderly-empty.html' target='_blank'>农村最后一批留守老人老去之后农村是不是就空了</a> - 2024-03-24
 * <a href='https://tf2jaguar.dpdns.org/life-beijing-shanghai-programer.html' target='_blank'>北京西二旗和上海张江程序员的终极悲惨宿命</a> - 2023-08-12
@@ -24,7 +25,6 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 * <a href='https://tf2jaguar.dpdns.org/srping-extension-point.html' target='_blank'>spring中常用的11个扩展点</a> - 2022-12-10
 * <a href='https://tf2jaguar.dpdns.org/jvm-heap-size.html' target='_blank'>jvm-堆内存不要超过32G</a> - 2022-12-04
 * <a href='https://tf2jaguar.dpdns.org/redis-progressive-rehash.html' target='_blank'>redis扩容缩容渐进式rehash</a> - 2022-12-03
-* <a href='https://tf2jaguar.dpdns.org/principle-of-netty-rpc-practice.html' target='_blank'>Netty核心原理剖析与RPC实践</a> - 2022-12-01
 <!-- recent_blogs ends -->
 
 ## 🎯 Project Release
