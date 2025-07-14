@@ -40,11 +40,11 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 <!--START_SECTION:waka-->
 
 ```txt
-Text     1 hr 45 mins    ████████████▓░░░░░░░░░░░░   51.10 %
-JSON     58 mins         ███████░░░░░░░░░░░░░░░░░░   28.37 %
-Bash     17 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.57 %
-Python   14 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   07.17 %
-Other    9 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   04.79 %
+Text     2 hrs 9 mins    ████████████▓░░░░░░░░░░░░   50.20 %
+JSON     1 hr 10 mins    ██████▓░░░░░░░░░░░░░░░░░░   27.22 %
+Bash     29 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.54 %
+Python   14 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.74 %
+Other    13 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.29 %
 ```
 
 <!--END_SECTION:waka-->
