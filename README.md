@@ -40,11 +40,11 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 <!--START_SECTION:waka-->
 
 ```txt
-TypeScript          6 hrs 55 mins   ████████████████████▒░░░░   81.59 %
-JSON                42 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.31 %
-Other               29 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.76 %
-Gradle Kotlin DSL   7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.49 %
-TOML                7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.38 %
+TypeScript          11 hrs 58 mins  ████████████████████░░░░░   79.64 %
+JSON                1 hr 12 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   08.07 %
+Other               56 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.24 %
+Text                30 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.40 %
+Gradle Kotlin DSL   7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.84 %
 ```
 
 <!--END_SECTION:waka-->
