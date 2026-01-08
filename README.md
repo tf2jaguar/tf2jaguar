@@ -40,8 +40,8 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 <!--START_SECTION:waka-->
 
 ```txt
-Text    7 mins          ██████████████████████░░░   88.08 %
-Other   1 min           ███░░░░░░░░░░░░░░░░░░░░░░   11.92 %
+Text    7 mins          ██████████████████████░░░   87.73 %
+Other   1 min           ███░░░░░░░░░░░░░░░░░░░░░░   12.27 %
 ```
 
 <!--END_SECTION:waka-->
