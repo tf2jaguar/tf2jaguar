@@ -40,7 +40,8 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+Other   11 mins               ██████████████████████▓░░   91.09 %
+JSON    1 min                 ██▒░░░░░░░░░░░░░░░░░░░░░░   08.91 %
 ```
 
 <!--END_SECTION:waka-->
