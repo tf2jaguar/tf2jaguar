@@ -15,8 +15,8 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 ## 📝 Latest Blog Posts
 
 <!-- recent_blogs starts -->
-* <a href='https://tf2jaguar.dpdns.org/cmb.html' target='_blank'>2026-07-17 招行热门理财收益率回测</a> - 2026-07-16
-* <a href='https://tf2jaguar.dpdns.org/webank-plus.html' target='_blank'>2026-07-16 微众plus+收益率回测</a> - 2026-07-15
+* <a href='https://tf2jaguar.dpdns.org/cmb.html' target='_blank'>2026-07-18 招行热门理财收益率回测</a> - 2026-07-17
+* <a href='https://tf2jaguar.dpdns.org/webank-plus.html' target='_blank'>2026-07-17 微众plus+收益率回测</a> - 2026-07-16
 * <a href='https://tf2jaguar.dpdns.org/korean-ashare-rules-adjustments.html' target='_blank'>韩国与A股市场近期动态及交易规则调整</a> - 2026-07-11
 * <a href='https://tf2jaguar.dpdns.org/devaluation-deflationary.html' target='_blank'>货币贬值-通缩环境分析</a> - 2026-06-24
 * <a href='https://tf2jaguar.dpdns.org/sh601888-20250520.html' target='_blank'>中国中免-20250520分析</a> - 2025-05-30
