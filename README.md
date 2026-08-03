@@ -15,8 +15,8 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 ## 📝 Latest Blog Posts
 
 <!-- recent_blogs starts -->
-* <a href='https://tf2jaguar.dpdns.org/cmb.html' target='_blank'>2026-08-03 招行热门理财收益率回测</a> - 2026-08-02
-* <a href='https://tf2jaguar.dpdns.org/webank-plus.html' target='_blank'>2026-08-02 微众plus+收益率回测</a> - 2026-08-01
+* <a href='https://tf2jaguar.dpdns.org/cmb.html' target='_blank'>2026-08-04 招行热门理财收益率回测</a> - 2026-08-03
+* <a href='https://tf2jaguar.dpdns.org/webank-plus.html' target='_blank'>2026-08-03 微众plus+收益率回测</a> - 2026-08-02
 * <a href='https://tf2jaguar.dpdns.org/korean-ashare-rules-adjustments.html' target='_blank'>韩国与A股市场近期动态及交易规则调整</a> - 2026-07-11
 * <a href='https://tf2jaguar.dpdns.org/devaluation-deflationary.html' target='_blank'>货币贬值-通缩环境分析</a> - 2026-06-24
 * <a href='https://tf2jaguar.dpdns.org/sh601888-20250520.html' target='_blank'>中国中免-20250520分析</a> - 2025-05-30
@@ -30,7 +30,7 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 ## 🎯 Project Release
 
 <!-- github_recent_releases starts -->
-* <a href='https://github.com/tf2jaguar/video2md/releases/tag/v0.1.0' target='_blank'>video2md (youtube、douyin 视频转markdown...) v0.1.0 — 多平台视频转写工作流</a> - 2026-08-02
+* <a href='https://github.com/tf2jaguar/video2md/releases/tag/v0.2.0' target='_blank'>video2md (youtube、douyin 视频转markdown...) v0.2.0 - 跨平台 ASR 与发布构建</a> - 2026-08-03
 * <a href='https://github.com/tf2jaguar/pytorch_train/releases/tag/1.0.0.RELEASE' target='_blank'>pytorch_train (毕业设计 使用pytorch进行深度学习网络模型训练，实现车...) 稳定版1.0.0.RELEASE</a> - 2022-12-23
 * <a href='https://github.com/tf2jaguar/microcosm/releases/tag/1.1.3.RELEASE' target='_blank'>microcosm (Springboot项目的工具包。尝试减少函数和功能之间的相...) 1.1.3.RELEASE</a> - 2022-06-16
 * <a href='https://github.com/tf2jaguar/carIdentify/releases/tag/1.0.0.RELEASE' target='_blank'>carIdentify (毕业设计 基于深度学习的车型识别APP，此处为APP模块...) 稳定版1.0.0.RELEASE</a> - 2022-05-12
