@@ -15,6 +15,7 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 ## 📝 Latest Blog Posts
 
 <!-- recent_blogs starts -->
+* <a href='https://tf2jaguar.dpdns.org/wc-dbhzt.html' target='_blank'>公众号大白话杂谈之转折判断全面复盘</a> - 2026-11-14
 * <a href='https://tf2jaguar.dpdns.org/cmb.html' target='_blank'>2026-08-09 招行热门理财收益率回测</a> - 2026-08-09
 * <a href='https://tf2jaguar.dpdns.org/webank-plus.html' target='_blank'>2026-08-09 微众plus+收益率回测</a> - 2026-08-08
 * <a href='https://tf2jaguar.dpdns.org/korean-ashare-rules-adjustments.html' target='_blank'>韩国与A股市场近期动态及交易规则调整</a> - 2026-07-11
@@ -24,7 +25,6 @@ src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32
 * <a href='https://tf2jaguar.dpdns.org/life-beijing-shanghai-programer.html' target='_blank'>北京西二旗和上海张江程序员的终极悲惨宿命</a> - 2023-08-12
 * <a href='https://tf2jaguar.dpdns.org/sh601888-20230707.html' target='_blank'>中国中免-20230707分析</a> - 2023-07-08
 * <a href='https://tf2jaguar.dpdns.org/project-microcosm.html' target='_blank'>microcosm-SpringBoot工具包</a> - 2022-12-25
-* <a href='https://tf2jaguar.dpdns.org/srping-extension-point.html' target='_blank'>spring中常用的11个扩展点</a> - 2022-12-10
 <!-- recent_blogs ends -->
 
 ## 🎯 Project Release
